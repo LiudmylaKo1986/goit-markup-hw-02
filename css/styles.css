@@ -23,7 +23,7 @@ button {
     --header-contact: #434455;
     --header-contact-item-act: #404BBF;
     --section-hero-bg: #2E2F42;
-    --section-hero-textcolor: #FFF;
+    --section-hero-textcolor: #FFFFFF;
     --footer-textcolor: #F4F4FD;
     --primary-font: 'Roboto', sans-serif;
     --secondary-font: 'Raleway', sans-serif;
@@ -50,11 +50,9 @@ button {
     color: var(--color-webstudio-studio);
 }
 
-.header-roster .link {}
+.header-roster {}
 
-.header-nav-list {}
-
-.header-nav-list {}
+.header-nav  {}
 
 .header-item {
     color: var(--header-nav-roster);
@@ -70,7 +68,9 @@ button {
     color: var(--header-contact-item-act);
 }
 
-.header-address {}
+.header-address {
+    font-style: normal;
+}
 
 .header-contacts {}
 
@@ -106,7 +106,7 @@ button {
     font-style: normal;
     font-weight: 700;
     line-height: 1.07;
-    letter-spacing: 0.07em;
+    letter-spacing: 0.02em;
 }
 
 .service-hero-button {
@@ -128,19 +128,7 @@ button {
 
 .section-features {}
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
+.visually-hidden {}
 
 .features-roster {}
 
@@ -150,10 +138,12 @@ button {
     font-style: normal;
     font-weight: 500;
     line-height: 1.20;
-    letter-spacing: 0.025em;
+    letter-spacing: 0.02em;
 }
 
-.features-name
+.features-name {
+    letter-spacing: 0.02em;
+}
 
 .features-text, .team-members-profession, .projects-type, .footer-text {
     font-size: 16px;
@@ -175,17 +165,20 @@ button {
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 40px;
-    letter-spacing: 0.045em;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
 .section-team-title {}
 
-.section-taem-roster {}
+.section-taem-roster {
+    background-color: var(--section-hero-textcolor);
+}
 
 .team-members {
     text-align: center;
+    letter-spacing: 0.02em;
 }
 
 .team-members-profession {
@@ -198,7 +191,9 @@ button {
 
 .section-portfolio-roster {}
 
-.projects-name {}
+.projects-name {
+    letter-spacing: 0.02em;
+}
 
 .projects-type {}
 
