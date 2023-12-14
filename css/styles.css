@@ -138,11 +138,10 @@ button {
     font-style: normal;
     font-weight: 500;
     line-height: 1.20;
-}
-
-.features-name {
     letter-spacing: 0.02em;
 }
+
+.features-name {}
 
 .features-text, .team-members-profession, .projects-type, .footer-text {
     font-size: 16px;
@@ -177,7 +176,6 @@ button {
 
 .team-members {
     text-align: center;
-    letter-spacing: 0.02em;
 }
 
 .team-members-profession {
@@ -190,9 +188,7 @@ button {
 
 .section-portfolio-roster {}
 
-.projects-name {
-    letter-spacing: 0.02em;
-}
+.projects-name {}
 
 .projects-type {}
 
