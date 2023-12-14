@@ -1,0 +1,217 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+:root{
+    --color-webstudio-studio: #2E2F42;
+    --color-webstudio-web: #4D5AE5;
+    --header-nav-roster: #2E2F42;
+    --header-contact: #434455;
+    --header-contact-item-act: #404BBF;
+    --section-hero-bg: #2E2F42;
+    --section-hero-textcolor: #FFF;
+    --footer-textcolor: #F4F4FD;
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+}
+
+.body-content {}
+
+.header-site-title {}
+
+.header-site-nav {}
+
+.header-logo, .footer-logo {
+    color: var(--color-webstudio-web);
+    font-family: var(--secondary-font);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.header-color, .footer-color{
+    color: var(--color-webstudio-studio);
+}
+
+.header-roster .link {}
+
+.header-nav-list {}
+
+.header-nav-list {}
+
+.header-item {
+    color: var(--header-nav-roster);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.header-item:hover,
+.header-item:focus {
+    color: var(--header-contact-item-act);
+}
+
+.header-address {}
+
+.header-contacts {}
+
+.header-contact-mail {}
+
+.header-contact-tel {}
+
+.contact-item {
+    color: var(--header-contact);
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.contact-item:hover,
+.contact-item:focus {
+    color: var(--header-contact-item-act);
+}
+
+.main-content {}
+
+.section-hero-service {
+    background: var(--section-hero-bg);
+    color: var(--section-hero-textcolor);
+}
+
+.service-hero-title {
+    text-align: center;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.07em;
+}
+
+.service-hero-button {
+    color: var(--section-hero-textcolor);
+    background-color: var(--color-webstudio-web);
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.service-hero-button:hover,
+.service-hero-button:focus {
+    background-color: var(--header-contact-item-act);
+    color: var(--section-hero-textcolor);
+}
+
+.section-features {}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
+.features-roster {}
+
+.features-name, .team-members, .projects-name {
+    color: var(--header-nav-roster);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.20;
+    letter-spacing: 0.025em;
+}
+
+.features-name
+
+.features-text, .team-members-profession, .projects-type, .footer-text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.features-text {}
+
+.section-team {
+    background: var(--footer-textcolor);
+}
+
+.section-team-title, .section-portfolio-title {
+    color: var(--header-nav-roster);
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.045em;
+    text-transform: capitalize;
+}
+
+.section-team-title {}
+
+.section-taem-roster {}
+
+.team-members {
+    text-align: center;
+}
+
+.team-members-profession {
+    text-align: center;
+}
+
+.section-portfolio {}
+
+.section-portfolio-title {}
+
+.section-portfolio-roster {}
+
+.projects-name {}
+
+.projects-type {}
+
+.footer-content {
+    background-color: var(--color-webstudio-studio);
+}
+
+.footer-logo {}
+
+.footer-color {
+    color: var(--footer-textcolor);
+}
+
+.footer-text {
+    color: var(--footer-textcolor);
+}
