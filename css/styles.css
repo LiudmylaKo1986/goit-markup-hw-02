@@ -1,7 +1,12 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
+:root {
+    --colour-navy-blue: #2E2F42;
+    --colour-iris: #4D5AE5;
+    --colour-slate: #434455;
+    --colour-ocean: #404BBF;
+    --colour-white: #FFFFFF;
+    --colour-cloud: #F4F4FD;
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
 }
 
 .list {
@@ -16,17 +21,10 @@ button {
     cursor: pointer;
 }
 
-:root{
-    --color-webstudio-studio: #2E2F42;
-    --color-webstudio-web: #4D5AE5;
-    --header-nav-roster: #2E2F42;
-    --header-contact: #434455;
-    --header-contact-item-act: #404BBF;
-    --section-hero-bg: #2E2F42;
-    --section-hero-textcolor: #FFFFFF;
-    --footer-textcolor: #F4F4FD;
-    --primary-font: 'Roboto', sans-serif;
-    --secondary-font: 'Raleway', sans-serif;
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--colour-slate);
+    background-color: var(--colour-white);
 }
 
 .body-content {}
@@ -36,7 +34,7 @@ button {
 .header-site-nav {}
 
 .header-logo, .footer-logo {
-    color: var(--color-webstudio-web);
+    color: var(--colour-iris);
     font-family: var(--secondary-font);
     font-size: 18px;
     font-style: normal;
@@ -47,7 +45,7 @@ button {
 }
 
 .header-color, .footer-color{
-    color: var(--color-webstudio-studio);
+    color: var(--colour-navy-blue);
 }
 
 .header-roster {}
@@ -55,7 +53,7 @@ button {
 .header-nav  {}
 
 .header-item {
-    color: var(--header-nav-roster);
+    color: var(--colour-navy-blue);
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -65,21 +63,19 @@ button {
 
 .header-item:hover,
 .header-item:focus {
-    color: var(--header-contact-item-act);
+    color: var(--colour-ocean);
 }
 
 .header-address {
-    font-style: normal;
-}
+    font-family: normal;
+}  
 
 .header-contacts {}
 
-.header-contact-mail {}
-
-.header-contact-tel {}
+.header-contact {}
 
 .contact-item {
-    color: var(--header-contact);
+    color: var(--colour-slate);
     font-family: var(--primary-font);
     font-size: 16px;
     font-style: normal;
@@ -90,14 +86,27 @@ button {
 
 .contact-item:hover,
 .contact-item:focus {
-    color: var(--header-contact-item-act);
+    color: var(--colour-ocean);
+}
+
+
+.header-contacts {}
+
+.header-contact {}
+
+.header-contact-tel
+
+.header-contact {
+ 
+}
+
 }
 
 .main-content {}
 
 .section-hero-service {
-    background: var(--section-hero-bg);
-    color: var(--section-hero-textcolor);
+    background: var(--colour-navy-blue);
+    color: var(--colour-white);
 }
 
 .service-hero-title {
@@ -110,8 +119,8 @@ button {
 }
 
 .service-hero-button {
-    color: var(--section-hero-textcolor);
-    background-color: var(--color-webstudio-web);
+    color: var(--colour-white);
+    background-color: var(--colour-iris);
     font-family: var(--primary-font);
     font-size: 16px;
     font-style: normal;
@@ -122,8 +131,8 @@ button {
 
 .service-hero-button:hover,
 .service-hero-button:focus {
-    background-color: var(--header-contact-item-act);
-    color: var(--section-hero-textcolor);
+    background-color: var(--colour-ocean);
+    color: var(--colour-white);
 }
 
 .section-features {}
@@ -133,7 +142,7 @@ button {
 .features-roster {}
 
 .features-name, .team-members, .projects-name {
-    color: var(--header-nav-roster);
+    color: var(--colour-navy-blue);
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -154,11 +163,11 @@ button {
 .features-text {}
 
 .section-team {
-    background: var(--footer-textcolor);
+    background: var(--colour-cloud);
 }
 
 .section-team-title, .section-portfolio-title {
-    color: var(--header-nav-roster);
+    color: var(--colour-navy-blue);
     text-align: center;
     font-size: 36px;
     font-style: normal;
@@ -170,9 +179,11 @@ button {
 
 .section-team-title {}
 
-.section-taem-roster {
-    background-color: var(--section-hero-textcolor);
-}
+.section-taem-roster {}
+
+.team-item{
+    background-color: var(--colour-white);
+} 
 
 .team-members {
     text-align: center;
@@ -193,15 +204,15 @@ button {
 .projects-type {}
 
 .footer-content {
-    background-color: var(--color-webstudio-studio);
+    background-color: var(--colour-navy-blue);
 }
 
 .footer-logo {}
 
 .footer-color {
-    color: var(--footer-textcolor);
+    color: var(--colour-cloud);
 }
 
 .footer-text {
-    color: var(--footer-textcolor);
+    color: var(--colour-cloud);
 }
